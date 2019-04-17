@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <!--JQuerry-->
+    <script src="components/loader.js"></script>
+    <script src="components/jquery-3.4.0.min.js"></script>
+    <script src="components/banco.js"></script>
+  
+    <!--bootstrap-->
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--fontes-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+
+    <script>
+    </script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" id="title">
+        <span> Cadastrar carro </span>
+      </div>
+    </div><!--row-->
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for=""></label>
+          <input type="text" class="form-control" id="marca" placeholder="Marca">
+        </div>
+      </div>
+    </div><!--row-->
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for=""></label>
+          <input type="text" class="form-control" id="modelo" placeholder="Modelo">
+        </div>
+      </div>
+    </div><!--row-->
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for=""></label>
+          <input type="number" class="form-control" max="2019" id="ano" placeholder="Ano">
+        </div>
+      </div>
+    </div><!--row-->
+
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="form-group">
+          <label for=""></label>
+          <input type="color" class="form-control" id="cor" placeholder="Cor">
+        </div>
+      </div>
+    
+      <div class="col-xs-6">
+        <div class="form-group">
+          <label for=""></label>
+          <input type="number" class="form-control" id="valor" placeholder="Valor">
+        </div>
+      </div>
+    </div><!--row-->
+
+    <div class="row">
+       <div class="col-xs-9">
+          <button class="btn btn-white btn-block" id="cadastro">Cadastrar</button>
+        </div> 
+      </div>
+    </div><!--row-->
+  </div><!--container-->  
+
+
+</body>
+</html>
+
+<style>
+  
+  body{
+   background-image: url(img/carr6.jpg);
+   background-repeat: round;
+   color: white;
+   font-size:20px;
+  }
+  .container{
+    
+  }
+  #title{
+    text-align:center;
+    font-family: 'Lobster', cursive;
+    padding-top:20px;
+    color:white;
+    text-shadow: 0px 3px 3px rgba(51, 51, 51, 0.5);
+    margin: 0 auto 35px;
+    font-size:42px;
+  }
+
+  .form-control {
+    box-shadow: none;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.58);
+    border-radius: 28px;
+    height: 46px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+  }
+  .form-control:placeholder{
+    color:white;
+  }
+.form-control:active, .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: white;
+}
+.form-group input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.80);
+  font-weight:400;
+} 
+#cadastro{
+  background-color: white;
+  border-radius: 28px;
+  font-family: 'Oswald', sans-serif;
+  color: #FF5722;
+  box-shadow: 3px 1px 6px 0px #FF5722;
+  box-sizing: border-box;
+  height:48px;
+  font-size:19px;
+  margin:48px;
+  
+}
+
+
+</style>
